@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flatten PDF for Mac Printing"
+  short_description: "Flatten transparent PDF pages for reliable macOS printing."
+  default_prompt: "Flatten this PDF for reliable macOS Preview and print output while preserving page size."
