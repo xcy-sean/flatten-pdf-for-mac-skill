@@ -4,6 +4,30 @@
 
 有些 PDF 在 Windows 上显示和打印正常，但在 macOS 预览、Adobe Acrobat for Mac 或实际打印时，公章、签章、水印周围会出现白底、半透明底块，或者打印效果与屏幕显示不一致。这个 Skill 用于将这类 PDF 转换成更适合 macOS 打印的扁平化 PDF。
 
+## 快速使用
+
+如果你希望让 AI 帮你安装和使用这个 Skill，可以直接把本文档链接或本文档内容发给 AI，并说明：
+
+```text
+请根据这份 README 帮我安装 flatten-pdf-for-mac-skill，并用它处理 PDF 公章在 macOS 上出现白底或打印异常的问题。
+```
+
+安装完成后，可以用下面的提示词让 AI 处理单个 PDF：
+
+```text
+使用 flatten-pdf-for-mac-skill 处理这个 PDF，解决 macOS 预览/打印时公章白底问题。请保留原文件不变，生成一个带“_mac打印扁平化”后缀的新 PDF，并确认 validation=passed。
+
+PDF 路径：/path/to/input.pdf
+```
+
+也可以让 AI 批量处理目录：
+
+```text
+使用 flatten-pdf-for-mac-skill 批量处理这个目录下所有 PDF，解决 macOS 预览/打印时公章白底问题。请不要修改源文件，把输出文件放到单独目录，文件名加“_mac打印扁平化”后缀，并确认每个文件都 validation=passed。
+
+目录路径：/path/to/pdf-folder
+```
+
 ## 适合解决的问题
 
 - PDF 公章在 Mac 上显示或打印时出现白底。
